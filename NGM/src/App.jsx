@@ -15,15 +15,15 @@ function App() {
   return (
     <>
       <Hero/>
-      <About/>
+      {/* //<About/>
       <Numbers/>
       <Conferences/>
       <Sponsor/>
       <Agenda />
-      <Speakers/>
-      <Ticketing/>
+      <Speakers/> 
+      {<Ticketing/>
       <FAQ/>
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }
