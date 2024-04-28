@@ -1,11 +1,13 @@
 import React from 'react'
+import "./button.css"
 
-const Button = ({title}) => {
+const Button = ({title, size, pad}) => {
   return (
     <div>
-      <button className='w-auto bg-[#0DA04C] py-4 px-8 text-white font-medium rounded-3xl   '>
+      <button className="btn" style={{ fontSize:size, padding:pad}}>
         {title}
       </button>
+
     </div>
   )
 }
