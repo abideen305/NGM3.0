@@ -1,16 +1,17 @@
 import React from 'react'
 import Button from './Button'
+import "./search.css"
 import logo from "../assets/images/Logo.png"
 
 const Search = () => {
   return (
     <>
-     <div className="flex  justify-center mt-8">
-      <div className="w-full bg-white rounded-[45px] flex justify-between px-6 py-2">
-        <div className="w-[37px] ">
+     <div className="flex  justify-center ">
+      <div className="searchBg">
+        <div className="logo ">
           <img src={logo} alt="logo"/>
         </div>
-        <div className="flex items-center gap-6 font-bold">
+        <div className="cta">
           <a href="#">Schedule</a>
           <a href="#">Gallery</a>
           <Button title="Buy Ticket" size={16} pad="10px 20px" />

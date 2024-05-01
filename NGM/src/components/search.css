@@ -1,0 +1,29 @@
+.searchBg{
+    width: 100%;
+    background: white;
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+.logo{
+width: 37px;
+}
+.cta{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 2rem;
+}
+@media screen and (max-width:769px) {
+.logo{
+    width: 24px;
+}
+.cta{
+    gap: 0.5rem;
+    font-size: 12px;
+}
+.searchBg{
+    padding: 5px 10px;
+}
+}

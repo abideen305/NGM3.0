@@ -15,7 +15,8 @@ function App() {
   return (
     <>
       <Hero/>
-      {/* //<About/>
+      <About/>
+      {/* 
       <Numbers/>
       <Conferences/>
       <Sponsor/>

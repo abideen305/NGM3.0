@@ -5,13 +5,13 @@
 }
 .hero{
   background: url("./assets/images/hero.png")  rgba(15, 25, 144, 0.74); 
-  background-blend-mode: multiply;
+  background-blend-mode:darken;
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  justify-content: space-around;
   align-items: center;
-  
+  height: 887px;
 }
 .heroTitleContainer{
   display: flex;
@@ -48,9 +48,16 @@ font-weight: 400;
 .theme>div{
 color: #FFFFFF99;
  width:70vw;
+
 }
 
 @media screen and (max-width:769px) {
+  .hero{
+    height: 600px;
+  }
+  .hero_title>h2{
+    font-size: 12px;
+  }
   .theme>h1{
     font-size: 56px;
     line-height: 56px;
@@ -58,8 +65,9 @@ color: #FFFFFF99;
   .theme>h2{
     font-size: 32px;
   }
-  .hero_title>h2{
-    font-size: 12px;
+  .theme>div{
+    margin: auto;
+    width: 85%;
   }
 }
 

@@ -27,7 +27,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <Button title="Buy Ticket" />
+        <div className="">
+          <Button title="Buy Ticket" />
+        </div>
       </div>
     </>
   )

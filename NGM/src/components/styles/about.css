@@ -1,0 +1,75 @@
+.aboutContainer{
+    background-color: #f6f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.vector{
+    position: relative;
+    top: 10vh;
+    right: 0;
+}
+.about{
+    display: flex;
+    gap: 5rem;
+}
+.content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.content>p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.content>h2{
+    font-size: 36px;
+}
+.content>h2>span{
+    font-weight: 600;
+}
+.gallery{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.item3{
+    grid-row-start: span 10;
+}
+.item2{
+   grid-row-start: 2;
+}
+
+@media screen and (max-width:769px) {
+    .about{
+        
+        flex-direction: column-reverse;
+        gap: 0.5rem;
+    }
+    .content{
+        width: auto;
+        padding: 20px;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .content>h2{
+        font-size: 30px;
+    }
+    .gallery{
+        height: 90vh;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+    .item2{
+       grid-row-start: 1;
+    }
+    .aboutContainer{
+        height: 145vh;
+    }
+    .vector{
+        width: 50px;
+    }
+}
