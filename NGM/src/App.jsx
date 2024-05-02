@@ -2,7 +2,7 @@ import './App.css'
 import Hero from "./views/Hero";
 import About from "./views/About"
 import Agenda from "./views/Agenda"
-import Conferences from "./views/Agenda"
+import Conferences from "./views/conferences/Conferences"
 import FAQ from "./views/FAQ"
 import Footer from "./views/Footer"
 import Sponsor from "./views/Sponsor"
@@ -17,8 +17,8 @@ function App() {
       <Hero/>
       <About/>
       <Numbers/>
-      {/* 
       <Conferences/>
+      {/* 
       <Sponsor/>
       <Agenda />
       <Speakers/> 
