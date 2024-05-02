@@ -1,0 +1,29 @@
+.numContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: #eafff3;
+}
+.numbers{
+    display: flex;
+    gap: 10rem;
+    font-family: Archivo;
+}
+.numbers>div>h2{
+   font-weight: 700;
+   font-size: 56px;
+}
+.numbers>div>p{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+@media  screen and (max-width:769px) {
+    .numbers{
+        gap: 5rem;
+    }
+    .numbers>div>h2{
+        font-size: 36px;
+    }
+}

@@ -1,12 +1,25 @@
 import React from 'react'
-
+import "../components/styles/numbers.css"
 const Numbers = () => {
   return (
-    <div>
-      <p>2,000+ Attendees</p>
-      <p>2,000+ Attendes</p>
-      <p>10+ Speakers</p>
-    </div>
+    <>
+      <div className="numContainer">
+        <div className="numbers">
+          <div className="">
+            <h2>2,000+ </h2>
+            <p> Attendees</p>
+          </div>
+          <div className="">
+            <h2>2,000+ </h2>
+            <p>Attendees </p>
+          </div>
+          <div className="">
+            <h2>10+ </h2>
+            <p>Speakers</p>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
