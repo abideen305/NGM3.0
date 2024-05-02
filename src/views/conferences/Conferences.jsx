@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+//import { Link } from "react-router-dom"
 // import Button from '../../components/Button'
 // import "../../components/styles/conferences.css"
 // import bluey from "../assets/images/blueSquare.png"
