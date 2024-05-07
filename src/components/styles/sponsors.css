@@ -10,6 +10,7 @@
 .sponsorContainer{
     background-color: #F6F8FF;
     height: 30vh;
+    overflow: hidden;
     white-space: nowrap;
 }
 .sponsorContainer>h2{
@@ -22,6 +23,5 @@
 .sponsors{
     display: inline-flex;
     gap: 3rem;
-    overflow: hidden;
     animation: 15s slides infinite linear;
 }

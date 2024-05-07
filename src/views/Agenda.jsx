@@ -1,10 +1,80 @@
 import React from 'react'
+import "../components/styles/agenda.css"
+import vector from "../assets/images/VectorB.png"
 
 const Agenda = () => {
   return (
-    <div>
-        <h2>Event Agenda hjjkkj</h2>
-    </div>
+    <>
+      <div className="agendaContainer">
+        <div className="vectorB">
+          <img src={vector} alt="" />
+        </div>
+        <h2 className='title'>Event <span>Agenda</span></h2>
+        <div className="agenda">
+          <div className="vertical"></div>   
+          <div className="timing">
+            <h4>9:00a.m - 10:00a.m</h4>
+            <h4>9:00a.m - 10:00a.m</h4>
+            <h4>9:00a.m - 10:00a.m</h4>
+            <h4>9:00a.m - 10:00a.m</h4>
+            <h4>9:00a.m - 10:00a.m</h4>
+            <h4>9:00a.m - 10:00a.m</h4>
+          </div>
+          <div className="dot">
+            <div className="node"></div>
+            <div className="node"></div>
+            <div className="node"></div>
+            <div className="node"></div>
+            <div className="node"></div>
+            <div className="node"></div>
+          </div>
+          <div className="activity">
+            <div className="">
+              <h3>Registration</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+            <div className="">
+              <h3>Lorem Ipsum Dolor Sit</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+            <div className="">
+              <h3>Lorem Ipsum Dolor Sit</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+            <div className="">
+              <h3>Lorem Ipsum Dolor Sit</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+            <div className="">
+              <h3>Lorem Ipsum Dolor Sit</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+            <div className="">
+              <h3>Lorem Ipsum Dolor Sit</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur 
+                adipisicing elit. Voluptatum sit nisi cumque 
+                fuga iusto. Aut et nam atque officia consequatur 
+                animi illum </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 

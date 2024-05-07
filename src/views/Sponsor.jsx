@@ -17,14 +17,7 @@ const Sponsor = () => {
           <img src={lotus} alt="" />
           <img src={leadway} alt="" />
         </div>
-        <div className="sponsors">
-          <img src={cowry} alt="" />
-          <img src={lotus} alt="" />
-          <img src={leadway} alt="" />
-          <img src={cowry} alt="" />
-          <img src={lotus} alt="" />
-          <img src={leadway} alt="" />
-        </div>
+       
       </div>
 
     </>

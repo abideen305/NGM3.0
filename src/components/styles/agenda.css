@@ -1,0 +1,97 @@
+.agandaContainer{
+    background-color: white;
+}
+.vectorB{
+    position: relative;
+    left: 85%;
+    top: 200px;
+}
+.title{
+    color: #0DA04C;
+    text-align: center;
+    font-size: 36px;
+    margin: 3rem 0;
+}
+.title>span{
+    font-weight: 600;
+}
+.agenda{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 3rem 0;
+}
+.node{
+    position: relative;
+    right: 33px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(13, 160, 76, 1);
+}
+.vertical{
+    border-left: 2px solid rgba(13, 160, 76, 0.3);
+     height: 888px;
+     position: absolute;
+     left: 42%;
+}
+.timing{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 250px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 400px;
+}
+.dot{
+    display: flex;
+    flex-direction: column;
+    gap: 9rem;
+}
+.activity>div>h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+.activity p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:764px) {
+    .activity{
+        width: 300px;
+        gap: 1.5rem;
+        
+    }
+    .node{
+        right: 26px;
+    }
+    .timing{
+        font-size: 12px;
+        gap: 5rem;
+    }
+    .dot{
+        gap: 5.1rem;
+    }
+    .activity p{
+        font-size: 10px;
+    }
+    .activity div>h3{
+        font-size: 18px;
+    }.vertical{
+        height: 550px;
+    }
+}
+
+
+
+
+
