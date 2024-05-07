@@ -1,0 +1,27 @@
+@keyframes slides {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+.sponsorContainer{
+    background-color: #F6F8FF;
+    height: 30vh;
+    white-space: nowrap;
+}
+.sponsorContainer>h2{
+    text-align: center;
+    color:  #475467;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.sponsors{
+    display: inline-flex;
+    gap: 3rem;
+    overflow: hidden;
+    animation: 15s slides infinite linear;
+}

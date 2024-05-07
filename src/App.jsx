@@ -17,9 +17,9 @@ function App() {
       <Hero/>
       <About/>
       <Numbers/>
-      <Conferences/>
-      {/* 
       <Sponsor/>
+      {/* 
+      <Conferences/>
       <Agenda />
       <Speakers/> 
       {<Ticketing/>

@@ -21,9 +21,12 @@
 }
 @media  screen and (max-width:769px) {
     .numbers{
-        gap: 5rem;
+        gap: 2rem;
     }
     .numbers>div>h2{
-        font-size: 36px;
+        font-size: 32px;
+    }
+    .numbers>div>p{
+        font-size: 14px;
     }
 }
