@@ -1,13 +1,127 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Conference 3.0</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta name="keywords" content="Astonish Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" /> -->
+<!-- <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> -->
+<script>
+	addEventListener("load", function () {
+		setTimeout(hideURLbar, 0);
+	}, false);
+
+	function hideURLbar() {
+		window.scrollTo(0, 1);
+	}
+</script>
+<!-- font files -->
+<link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+<!-- /font files -->
+<!-- css files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- /css files -->
+<body>
+	<div class="w3l-banner-layer">
+	<div class="container  text-center">
+			<div class="agileinfo-logo">
+					<!-- <h1><a href="index.html"><span class="fa fa-diamond" aria-hidden="true"></span>astonish</a></h1> -->
+					<h1><a href="index.html"><img src="images/Logo1.png" alt="">2024 NGM Conference</a></h1>
+			</div>
+			<h2 class="txt-w3_agile">stay tuned <br>It's Conference time. </h2>
+				<!--timer-->
+					<div class="clock w3agile">
+						<div class="column days">
+							<div class="timer" id="days"></div>
+							<div class="text">DAYS</div>
+						</div>
+			
+						<div class="column">
+							<div class="timer" id="hours"></div>
+							<div class="text">HOURS</div>
+						</div>
+			
+						<div class="column">
+							<div class="timer" id="minutes"></div>
+							<div class="text">MINUTES</div>
+						</div>
+			
+						<div class="column">
+							<div class="timer" id="seconds"></div>
+							<div class="text">SECONDS</div>
+						</div>
+					</div>
+				
+				<!--//timer-->
+			<span class="bar"></span>
+			<p>get notified before others.</p>
+			<div class="sub-form-wthree">
+				<form action="#" method="post">
+					<input type="email" name="email" size="30" required="" placeholder="Email">
+					<button class="btn1"><span class="fa fa-paper-plane" aria-hidden="true"></span></a></button>
+				</form>
+			</div>		
+			<div class="agile_social_banner">
+				<ul class="social_list">
+					<li><a href="#" class="social_facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>
+					<li><a href="#" class="social_twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+					<li><a href="#" class="social_youtube"><span class="fa fa-youtube" aria-hidden="true"></span></a></li>
+					<li><a href="#" class="social_linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li>
+				</ul>
+			</div> 		
+	</div>
+	<div class="footer">
+		<p> &copy; 2024 NGM. All Rights Reserved | Design by <a href="#" target="=_blank">Tech Team</a></p>
+	</div>
+	</div>
+
+
+	<script>
+        function countdown() {
+            const targetDate = new Date("October 5, 2024 00:00:00").getTime();
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            if (difference < 0) {
+                clearInterval(timer);
+                document.getElementById("timer").innerHTML = "The countdown is over!";
+            }
+        }
+
+        const timer = setInterval(countdown, 1000);
+    </script>
+
+
+
+
+
+
+
+	 <!-- Js files -->
+	 <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
+
+	 <!-- Timer js -->
+	 <!-- <script src="js/moment.js"></script>
+	 <script src="js/moment-timezone-with-data.js"></script>
+	 <script src="js/timer.js"></script> -->
+	 <!-- //Timer js -->
+ 
+	 <!-- //Js files -->
+  
+</body>
+
+
 </html>
