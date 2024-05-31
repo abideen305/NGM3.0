@@ -46,7 +46,6 @@
 
 @media screen and (max-width:769px) {
     .about{
-        
         flex-direction: column-reverse;
         gap: 0.5rem;
     }
@@ -57,18 +56,18 @@
         gap: 0.5rem;
     }
     .content>h2{
-        font-size: 26px;
+        font-size: 24px;
+        padding-top: 15px;
+    }
+    .content>p{
+        font-size: 15px;
     }
     .gallery{
-        height: 90vh;
         padding: 10px 20px;
         justify-content: center;
     }
     .item2{
        grid-row-start: 1;
-    }
-    .aboutContainer{
-        height: 145vh;
     }
     .vector{
         width: 50px;

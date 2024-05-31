@@ -11,16 +11,9 @@ const Agenda = () => {
         </div>
         <h2 className='title'>Event <span>Agenda</span></h2>
         <div className="agenda">
-          <div className="vertical"></div>   
-          <div className="timing">
-            <h4>9:00a.m - 10:00a.m</h4>
-            <h4>9:00a.m - 10:00a.m</h4>
-            <h4>9:00a.m - 10:00a.m</h4>
-            <h4>9:00a.m - 10:00a.m</h4>
-            <h4>9:00a.m - 10:00a.m</h4>
-            <h4>9:00a.m - 10:00a.m</h4>
-          </div>
-          <div className="dot">
+          <div className="relative">
+            <div className="vertical"></div>
+            <div className="dot">
             <div className="node"></div>
             <div className="node"></div>
             <div className="node"></div>
@@ -28,48 +21,68 @@ const Agenda = () => {
             <div className="node"></div>
             <div className="node"></div>
           </div>
+          </div>   
+          
           <div className="activity">
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Registration</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div>
             </div>
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Lorem Ipsum Dolor Sit</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div> 
             </div>
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Lorem Ipsum Dolor Sit</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div>
             </div>
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Lorem Ipsum Dolor Sit</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div>
             </div>
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Lorem Ipsum Dolor Sit</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div>
             </div>
-            <div className="">
+            <div className="segment">
+              <h4 className='timing'>9:00a.m - 10:00a.m</h4>
+              <div className="">
               <h3>Lorem Ipsum Dolor Sit</h3>
               <p>Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Voluptatum sit nisi cumque 
                 fuga iusto. Aut et nam atque officia consequatur 
                 animi illum </p>
+              </div>
             </div>
           </div>
         </div>

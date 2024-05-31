@@ -6,7 +6,7 @@ import Conferences from "./views/conferences/Conferences"
 import FAQ from "./views/FAQ"
 import Footer from "./views/Footer"
 import Sponsor from "./views/Sponsor"
-import Speakers from "./views/Speakers"
+import Speakers from "./views/speakers/Speakers"
 import Numbers from "./views/Numbers"
 import Ticketing from "./views/Ticketing"
 
@@ -19,9 +19,9 @@ function App() {
       <Numbers/>
       <Sponsor/>
       <Agenda />
+      <Speakers/> 
       {/* 
       <Conferences/>
-      <Speakers/> 
       {<Ticketing/>
       <FAQ/>
       <Footer/> */}

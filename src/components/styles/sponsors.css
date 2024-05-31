@@ -25,3 +25,12 @@
     gap: 3rem;
     animation: 15s slides infinite linear;
 }
+
+@media  screen and (max-width:769px) {
+    .sponsorContainer{
+        height: auto;
+    }
+    .sponsorContainer>h2{
+        font-size: 16px;
+    }
+}
