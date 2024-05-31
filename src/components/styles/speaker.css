@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: rgba(108, 130, 192, 0.8);
+    background-color: rgba(178, 182, 192, 0.2);
     padding: 20px 30px;
     border: 2.58px solid rgba(108, 192, 111, 0.8);
     border-radius: 12px;

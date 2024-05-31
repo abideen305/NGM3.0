@@ -20,11 +20,12 @@ function App() {
       <Sponsor/>
       <Agenda />
       <Speakers/> 
+      <Footer/>
       {/* 
       <Conferences/>
       {<Ticketing/>
       <FAQ/>
-      <Footer/> */}
+       */}
     </>
   )
 }
