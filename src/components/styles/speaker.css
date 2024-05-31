@@ -4,7 +4,7 @@
 }
 .speakers{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
 }
 .card{
     display: flex;
@@ -16,18 +16,18 @@
 .sp{
     z-index: -1;
 }
-.sm{
+.smedia{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: rgba(108, 192, 111, 0.8);
+    background-color: rgba(108, 130, 192, 0.8);
     padding: 20px 30px;
     border: 2.58px solid rgba(108, 192, 111, 0.8);
     border-radius: 12px;
     margin-top: -50px;
     
 }
-.sm>img{
+.smedia>img{
     width: 21px;
     color: white;
 }
@@ -42,8 +42,31 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-@media screen and(max-width:767px) {
+@media screen and (max-width:767px) {
     .speakers{
-        grid-template-columns: repeat(2, auto);
+        display: flex;
+        flex-wrap: wrap;  
+        justify-content: center; 
+    }
+    .speakerContainer{
+        padding: 1rem;
+    }
+    .smedia{
+        gap: 1rem;
+        padding: 10px 20px;
+        margin-top: -30px;
+        
+    }
+    .smedia>img{
+        width: 15px;
+    }
+    .card>h3{
+        font-size: 18px;
+    }
+    .card>p{
+        font-size: 14px;
+    }
+    .sp{
+        width: 80%;
     }
 }

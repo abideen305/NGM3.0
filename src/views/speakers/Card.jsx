@@ -13,8 +13,10 @@ const Card = ({
   return (
     <>
       <div className="card"> 
-              <div className=""> <img src={spImg} alt="" className='sp' /></div>
-              <div className="sm">
+              <div className=""> 
+                <img src={spImg} alt="" className='sp' />
+              </div>
+              <div className="smedia">
                 <img src={twitter} alt="" />
                 <img src={linkedin} alt="" />
                 <img src={ig} alt="" />
