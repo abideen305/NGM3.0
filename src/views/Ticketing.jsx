@@ -11,8 +11,8 @@ const Ticketing = () => {
     <>
         <div className="bg-[#F6F8FF]  p-20 sm:p-6">
           <div className="flex justify-around items-center sm:flex-col sm:gap-10">
-            <div className="max-w-[500px] flex flex-col gap-10 ">
-              <h4 className='max-w-[370px] text-[48px] font-semibold' >Get your ticket, do not miss out!</h4>
+            <div className="max-w-[500px] flex flex-col gap-10 sm:gap-4 sm:items-center">
+              <h4 className='max-w-[370px] text-[48px] sm:text-[28px] sm:max-w-[230px] font-semibold' >Get your ticket, do not miss out!</h4>
               <p className='text-[rgba(0, 0, 0, 0.5)] '>Lorem ipsum dolor sit amet consectetur. Dui sed sed mattis id elit. 
                 Morbi pharetra sagittis non massa iaculis neque cras aliquet. At vulputate vomsan velit.</p>
               <div className="text-[#0F1990] flex flex-col gap-4">
@@ -58,7 +58,7 @@ const Ticketing = () => {
                 <h2></h2>
                 <div className=" flex justify-center p-6">
                 <Button 
-                  title="Buy Ticket"
+                  title="Buy Ticket" size={15} pad={20}
                 />
                 </div>
               </div>
