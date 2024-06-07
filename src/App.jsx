@@ -18,14 +18,14 @@ function App() {
       <Hero/>
       <About/>
       <Numbers/>
-      <Sponsor/>
       <Agenda />
       <New />
       <Speakers/> 
+      <Ticketing/>
+      <Sponsor/>
       <Footer/>
-      {/* 
+      {/** 
       <Conferences/>
-      {<Ticketing/>
       <FAQ/>
        */}
     </>
