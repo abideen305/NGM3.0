@@ -1,5 +1,5 @@
 import React from 'react'
-import "../components/styles/agenda.css"
+import "../styles/agenda.css"
 import vector from "../assets/images/VectorB.png"
 
 const Agenda = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import "../components/styles/sponsors.css"
+import "../styles/sponsors.css"
 import lotus from "../assets/images/lotus.png"
 import cowry from "../assets/images/cowrywise.png"
 import leadway from "../assets/images/leadway.png"

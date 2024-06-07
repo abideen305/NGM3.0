@@ -13,15 +13,22 @@ width: 37px;
     display: flex;
     font-weight: bold;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
+}
+.home{
+    display: flex;
+    gap: 1rem;
 }
 @media screen and (max-width:769px) {
 .logo{
-    width: 24px;
+    display: none;
 }
 .cta{
-    gap: 0.5rem;
+    gap: 1.5rem;
     font-size: 12px;
+}
+.cta>.home{
+    display: none;
 }
 .searchBg{
     padding: 5px 10px;

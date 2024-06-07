@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../components/styles/speaker.css"
+import "../../styles/speaker.css"
 import twitter from "../../assets/images/wtwitter.png"
 import linkedin from "../../assets/images/linkedin.png"
 import ig from "../../assets/images/wIg.png"

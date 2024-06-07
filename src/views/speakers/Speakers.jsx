@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../components/styles/speaker.css"
+import "../../styles/speaker.css"
 import sp2 from "../../assets/images/sp2.png"
 import sp3 from "../../assets/images/sp3.png"
 import sp4 from "../../assets/images/sp4.png"

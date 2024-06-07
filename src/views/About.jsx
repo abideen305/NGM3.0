@@ -1,5 +1,5 @@
 import React from 'react' ;
-import "../components/styles/about.css"
+import "../styles/about.css"
 import Button from '../components/Button';
 import confImg1 from "../assets/images/confImg1.png"
 import confImg2 from "../assets/images/confImg2.png"

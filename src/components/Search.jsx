@@ -12,10 +12,16 @@ const Search = () => {
           <img src={logo} alt="logo"/>
         </div>
         <div className="cta">
-          <a href="#">Schedule</a>
+          <div className="home">
+            <a href="">Home</a>
+            <a href="">Event Brochure</a>
+            <a href="">Contact Us</a>
+          </div>
           <a href="#">Gallery</a>
-          <Button title="Buy Ticket" size={16} pad="10px 20px" />
+          <a href="#">Become a sponsor</a>
+          <a href="ngmconference.substack.com">Join NGM community</a>
         </div>
+          <Button title="Buy Ticket" size={16} pad="10px 20px" />
       </div>
      </div>
     </>

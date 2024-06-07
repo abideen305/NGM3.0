@@ -9,6 +9,7 @@ import Sponsor from "./views/Sponsor"
 import Speakers from "./views/speakers/Speakers"
 import Numbers from "./views/Numbers"
 import Ticketing from "./views/Ticketing"
+import New from "./views/New"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Numbers/>
       <Sponsor/>
       <Agenda />
+      <New />
       <Speakers/> 
       <Footer/>
       {/* 

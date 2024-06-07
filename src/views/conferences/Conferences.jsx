@@ -1,7 +1,7 @@
 import React from 'react'
 //import { Link } from "react-router-dom"
 // import Button from '../../components/Button'
-// import "../../components/styles/conferences.css"
+// import "../../styles/conferences.css"
 // import bluey from "../assets/images/blueSquare.png"
 // import greeny from "../assets/images/greenSquare.png"
 // import confImg1 from "../assets/images/conf_img4.png"
