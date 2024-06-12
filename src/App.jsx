@@ -3,7 +3,7 @@ import Hero from "./views/Hero";
 import About from "./views/About"
 import Agenda from "./views/Agenda"
 import Conferences from "./views/conferences/Conferences"
-import FAQ from "./views/FAQ"
+import Faq from "./views/faq/index"
 import Footer from "./views/Footer"
 import Sponsor from "./views/Sponsor"
 import Speakers from "./views/speakers/Speakers"
@@ -23,10 +23,10 @@ function App() {
       <Speakers/> 
       <Ticketing/>
       <Sponsor/>
+      <Faq/>
       <Footer/>
       {/** 
       <Conferences/>
-      <FAQ/>
        */}
     </>
   )
