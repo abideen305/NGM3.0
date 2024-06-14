@@ -25,9 +25,11 @@
     display: inline-flex;
     gap: 3rem;
     animation: 15s slides infinite linear;
+    max-height: 70vh;
 }
 
 @media  screen and (max-width:769px) {
+    
     .sponsorContainer{
         height: auto;
     }

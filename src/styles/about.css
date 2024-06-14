@@ -1,18 +1,19 @@
 .aboutContainer{
     background-color: #f6f8ff;
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 100vh;
+    position: relative;
 }
 .vector{
-    position: relative;
+    position: absolute;
     top: 10vh;
     right: 0;
 }
 .about{
     display: flex;
     gap: 5rem;
+    align-items: center;
 }
 .content{
     width: 500px;
@@ -45,6 +46,9 @@
 }
 
 @media screen and (max-width:769px) {
+    .aboutContainer{
+        height: auto;
+    }
     .about{
         flex-direction: column-reverse;
         gap: 0.5rem;

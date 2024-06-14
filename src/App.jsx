@@ -10,6 +10,7 @@ import Speakers from "./views/speakers/Speakers"
 import Numbers from "./views/Numbers"
 import Ticketing from "./views/Ticketing"
 import New from "./views/New"
+import Highlights from "./views/Highlights"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Hero/>
       <About/>
       <Numbers/>
+      <Highlights/>
       <Agenda />
       <New />
       <Speakers/> 

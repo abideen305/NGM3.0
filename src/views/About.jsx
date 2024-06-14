@@ -18,7 +18,6 @@ const About = () => {
 
         </div>
         <div className="content">
-          .
           <h2>About <span>NGM Conference </span> </h2>
           <p>Lorem ipsum dolor, sit amet consectetur 
             adipisicing elit. Cum ipsa aliquam reprehenderit 

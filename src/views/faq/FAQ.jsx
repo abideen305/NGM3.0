@@ -11,9 +11,9 @@ const FAQ = ({title, content, isOpen, onClick}) => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
                 onClick={onClick} 
-                className={`pt-4 w-full ${isHovered ? "bg-[#fafafa] " : "text-[#000"}`}>
+                className={`py-4 w-full ${isHovered ? "bg-[#fafafa] " : "text-[#000"}`}>
                   <div className="flex justify-between">
-                    <h5>{title}</h5>
+                    <h5 className='text-start' >{title}</h5>
                     <div className="">
                       {isOpen? <IoIosArrowDown size={24}/> : <IoIosArrowUp size={24} />}
                     </div>
