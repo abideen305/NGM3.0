@@ -1,14 +1,11 @@
 import React from 'react'
 import "../../styles/speaker.css"
-import twitter from "../../assets/images/wtwitter.png"
-import linkedin from "../../assets/images/linkedin.png"
-import ig from "../../assets/images/wIg.png"
-import sp1 from "../../assets/images/sp1.png"
-
+import sp1 from "../../assets/pastSpeakers/sp1.png"
 const Card = ({
     spImg =sp1, 
-    name='Ridwan Sodamade', 
-    title='Product Manager, NGM Conference'
+    name='Alhaji Nasir Giwa', 
+    title='Founder',
+    organisation = 'Nasir Giwa Foundation'
 }) => {
   return (
     <>
@@ -17,12 +14,10 @@ const Card = ({
                 <img src={spImg} alt="" className='sp' />
               </div>
               <div className="smedia">
-                <img src={twitter} alt="" />
-                <img src={linkedin} alt="" />
-                <img src={ig} alt="" />
+              <h3>{name}</h3>                
               </div>
-              <h3>{name}</h3>
-              <p>{title}</p>
+              <h6>{title}</h6>
+              <p>{organisation}</p>
             </div>
     </>
   )

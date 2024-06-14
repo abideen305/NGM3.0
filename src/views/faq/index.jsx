@@ -9,7 +9,7 @@ const index = () => {
     }
   return (
     <>
-      <div className="max-w-[70%] sm:max-w-[85%] px-[3rem] pt-[5rem] sm:px-2 sm:pt-4">
+      <div className="max-w-[70%] sm:max-w-[85%] px-[3rem] py-[5rem] sm:px-2 sm:py-4">
       <h2 className='sm:text-center font-bold text-[32px] sm:text-[22px] '>Frequently Asked Questions</h2>
 
         <div className="pt-5">
