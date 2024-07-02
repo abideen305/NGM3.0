@@ -19,6 +19,7 @@ function App() {
       <Hero/>
       <About/>
       <Numbers/>
+      <Conferences/>
       <Highlights/>
       <Agenda />
       <New />
@@ -27,9 +28,7 @@ function App() {
       <Sponsor/>
       <Faq/>
       <Footer/>
-      {/** 
-      <Conferences/>
-       */}
+     
     </>
   )
 }
