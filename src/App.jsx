@@ -11,6 +11,7 @@ import Numbers from "./views/Numbers"
 import Ticketing from "./views/Ticketing"
 import New from "./views/New"
 import Highlights from "./views/Highlights"
+import Gallery from './views/Gallery'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Sponsor/>
       <Faq/>
       <Footer/>
+      <Gallery/>
      
     </>
   )

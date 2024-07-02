@@ -12,7 +12,7 @@ const Conferences = () => {
   }
   return (
     <>
-      <div className="flex flex-col gap-[3rem] px-[5rem] py-[3rem] sm:gap-[1.5rem] px-[2rem] py-[3rem] ">
+      <div className="flex flex-col gap-[3rem] px-[5rem] py-[3rem] sm:gap-[1.5rem] sm:p-[2rem] ">
           <h2 className='title text-black font-extralight' >NGM Conferences <span>so far.. </span> </h2>
         <div className="flex flex-col gap-[2rem] ">
        
