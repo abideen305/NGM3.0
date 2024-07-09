@@ -13,6 +13,7 @@ import New from "./views/New"
 import Highlights from "./views/Highlights"
 import Gallery from './views/Gallery'
 
+
 function App() {
 
   return (

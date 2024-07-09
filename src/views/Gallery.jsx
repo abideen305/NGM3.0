@@ -20,21 +20,25 @@ const Gallery = () => {
     <>
         <div className="bg-[#f6f8ff] flex flex-col gap-[3rem] px-[5rem] py-[3rem] sm:gap-[1.5rem] sm:p-[2rem]  ">
             <h2 className='font-bold'>NGM Conference Gallery</h2>
-            <div className="gap-3 columns-3 *:mb-8 ">
+            <div className="gap-3 columns-3 *:mb-8 sm:*:mb-4">
                 <img src={gal1} alt=""  />
                 <img src={gal2a} alt="" />
-                <img src={gal2} alt="" />
+                
                 <img src={gal3} alt="" />
                 <img src={gal5} alt="" />
+                
                 <img src={gal4} alt="" />
                 <img src={gal6} alt="" />
+               
                 <img src={gal12} alt="" />
                 <img src={gal7} alt="" />
                 <img src={gal14} alt="" />
                 <img src={gal9} alt="" />
+                 <img src={gal2} alt="" />
                 <img src={gal10} alt="" />
                 <img src={gal11} alt="" />
                 <img src={gal8} alt="" />
+                
                 <img src={gal13} alt="" />
                 
                 <img src="" alt="" />
