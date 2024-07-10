@@ -22,7 +22,7 @@ const Ticketing = () => {
                 </div>
                 <div className=" flex gap-2">
                   <img src={date} alt="" />
-                  <p>22nd June, 2023</p>
+                  <p> Oct. 5, 2024</p>
                 </div>
                 <div className="">
                   <a href="#" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full ' >
@@ -53,9 +53,9 @@ const Ticketing = () => {
                   <p className='text-[20px] sm:text-[16px]'>Event Perk Here</p>
                 </div>
               </div>
-              <div className="">
-                <p></p>
-                <h2></h2>
+              <div className="flex flex-col items-center">
+                <p className='text-[rgba(0, 0, 0, 0.5)] '>Admit one</p>
+                <h2 className='font-bolder text-[40px] sm:text-[24px] ' >&#8358;3,500</h2>
                 <div className=" flex justify-center p-6">
                 <Button 
                   title="Buy Ticket" size={15} pad={20}

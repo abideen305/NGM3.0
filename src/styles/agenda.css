@@ -75,17 +75,13 @@
         gap: 1rem;
         width: 90%;
     }
-    .node{
-        width: 0.5rem;
-        height: 0.5rem;
-    }
+    
     .timing{
         font-size: 12px;
         flex-basis: 40%;
     }
     .dot{
-        gap: 13vh;    
-        left: 19.3vw;
+        display: none;
     }
     .activity p{
         font-size: 10px;

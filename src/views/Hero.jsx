@@ -1,6 +1,8 @@
 import React, {useState, useRef} from 'react'
 import Search from "../components/Search"
 import Button from "../components/Button"
+import calendar from "../assets/images/calendar.png"
+import location from "../assets/images/location.png"
 const Hero = () => {
   const Ref = useRef(null);
 const [timer, setTimer] = useState({
@@ -19,7 +21,7 @@ const [timer, setTimer] = useState({
     const minute = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const second = Math.floor((distance % (1000 * 60)) / 1000)
     
-    if (distance >= 0) {
+    if (distance >= 0) { 
       setTimer({...timer, days:day, hours:hour, minutes:minute, seconds:second}) 
     }else{
       setTimer({
@@ -46,15 +48,13 @@ const [timer, setTimer] = useState({
         </div>
         <div className="themeContainer">
           <div className="theme">
-            <h1>Venture <div className='bg-[#0da04c] px-8 rounded-lg ' >Forward:</div></h1>
+            <h1>Venture <div className='' >Forward:</div></h1>
             <h2>Innovate, Create, Suceed</h2>
             <div className="">
-              <p>Lorem ipsum dolor, sit amet consectetur 
-              adipisicing elit. Sint exercitationem 
-              perspiciatis fugiat maxime temporibus 
-              adipisci fuga labore distinctio, eveniet 
-              autem delectus aut doloribus dolorem optio
-              at sunt commodi quis corporis.</p>
+              <p>Join us this year as we set to gather successful trailblazers and
+                industry leaders to share their knowledge and perspectives that
+                goes beyond the traditional business rulebook.
+                .</p>
             </div>
           </div>
         </div>
@@ -83,12 +83,12 @@ const [timer, setTimer] = useState({
               </div>
             </div>
             <hr />
-            <div className="">
-              <img src="" alt="" />
+            <div className="flex gap-1 items-center">
+              <img src={location} alt="" />
               <h5>Location: Lagos</h5>
             </div>
-            <div className="">
-              <img src="" alt="" />
+            <div className="flex gap-1 items-center">
+              <img src={calendar} alt="" />
               <h5>Oct 5, 2024</h5>
             </div>
           </div>

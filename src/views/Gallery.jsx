@@ -1,4 +1,6 @@
 import React from 'react'
+import Search from "../components/Search"
+import Footer from "./Footer"
 import gal1 from '../assets/gallery/gal1.png'
 import gal2 from '../assets/gallery/gal2.png'
 import gal3 from '../assets/gallery/gal3.png'
@@ -18,7 +20,9 @@ import gal2a from '../assets/gallery/gal2a.png'
 const Gallery = () => {
   return (
     <>
+
         <div className="bg-[#f6f8ff] flex flex-col gap-[3rem] px-[5rem] py-[3rem] sm:gap-[1.5rem] sm:p-[2rem]  ">
+            <Search />
             <h2 className='font-bold'>NGM Conference Gallery</h2>
             <div className="gap-3 columns-3 *:mb-8 sm:*:mb-4">
                 <img src={gal1} alt=""  />
@@ -43,8 +47,9 @@ const Gallery = () => {
                 
                 <img src="" alt="" />
             </div>
+           
         </div>
-      
+      < Footer />
     </>
   )
 }

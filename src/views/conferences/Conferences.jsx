@@ -4,6 +4,7 @@ import React, { useState } from 'react'
  import greeny from "../../assets/images/greenSquare.png"
  import confImg1 from "../../assets/images/conf_img4.png"
  import confImg2 from "../../assets/images/conf_img5.png"
+ import youtube from "../../assets/images/youtube.png"
 
 const Conferences = () => {
   const [toggle, setToggle] = useState(1);
@@ -25,25 +26,28 @@ const Conferences = () => {
           <hr />
 
           <div id="1" className={`${toggle === 1 ? 'block':'hidden'}`}>
-            <div className="flex gap-[10%] ">
-              <div className="grid grid-flow-row grid-rows-5 gap-2">
-                <div className="row-start-1 row-end-3"><img src={confImg1} alt="" /></div>
-                <div className=" self-end"><img src={bluey} alt=""/></div>
-                <div className="row-start-3 self-start justify-self-end"><img src={greeny} alt="" /></div>
-                <div className="row-start-2 row-end-5"><img src={confImg2} alt="" /></div>
-
+            <div className="flex gap-[10%] items-center ">
+              <div className="grid gap-2 grid-flow-row grid-cols-2 sm:hidden">
+                <div className="row-start-1 justify-self-end"><img src={confImg1} alt="" /></div>
+                <div className="self-end"><img src={bluey} alt=""/></div>
+                <div className="row-start-2 justify-self-end"><img src={greeny} alt="" /></div>
+                <div className=""><img src={confImg2} alt="" /></div>
+          
               </div>
-              <div className="basis-[50%] sm:basis-[70%] flex flex-col  gap-6 ">
+              <div className="basis-[50%] sm:basis-[80%] flex flex-col  gap-6 ">
                 <h3>NGM Conference <span>1.0 </span> </h3>
-                <p className='text-[#4B5565]' >Lorem ipsum dolor, sit amet consectetur 
+                <p className='text-[#4B5565] font-medium' >Lorem ipsum dolor, sit amet consectetur 
                   adipisicing elit. Cum ipsa aliquam reprehenderit 
                   possimus? Quas exercitationem quaerat deleniti 
                   itaque commodi maxime, ipsa   est saepe fugit 
                   at quos explicabo reprehenderit beatae!</p>
-                <p className='text-[#0F1990] font-medium'> Key Stats: 700+ Attendees, 13+ Speakers</p>
+                <p className='text-[#0F1990] font-medium '> Key Stats: 700+ Attendees, 13+ Speakers</p>
                 <div className="">
-                  <button className='border border-gray-200 px-4 py-2 rounded-full'>Catch the Replay</button>
-                </div>
+                  <a href='https://drive.google.com/file/d/1Fs3W6VanuIBPMTpu7bGZ0tFOLtPbC2Ki/view?usp=drivesdk' 
+                  className='flex gap-2 text-[#0F1990] font-medium border border-gray-200 px-4 py-2 rounded-full'>
+                    <img src={youtube} alt="" /><p>Catch the Replay</p> </a>
+                  </div>
+              
               </div>
           </div>
           </div>
@@ -66,7 +70,9 @@ const Conferences = () => {
                   at quos explicabo reprehenderit beatae!</p>
                 <p className='text-[#0F1990]  font-medium '>Key Stats: 700+ Attendees, 13+ Speakers</p>
                 <div className="">
-                  <button className='border border-gray-200 px-4 py-2 rounded-full'>Catch the Replay</button>
+                <a href='https://drive.google.com/file/d/1Fs3W6VanuIBPMTpu7bGZ0tFOLtPbC2Ki/view?usp=drivesdk' 
+                  className='flex gap-2 text-[#0F1990] font-medium border border-gray-200 px-4 py-2 rounded-full'>
+                    <img src={youtube} alt="" /><p>Catch the Replay</p> </a>
                 </div>
               </div>
           </div>
@@ -90,7 +96,7 @@ const Conferences = () => {
                   at quos explicabo reprehenderit beatae!</p>
                 <p className='text-[#0F1990] font-medium'>Key Stats: 700+ Attendees, 13+ Speakers</p>
                 <div className="">
-                  <button className='border border-gray-200 px-4 py-2 rounded-full'>Catch the Replay</button>
+                  <Button title='Get Your Ticket' />
                 </div>
               </div>
           </div>

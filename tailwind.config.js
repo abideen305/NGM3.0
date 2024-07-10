@@ -8,6 +8,7 @@ export default {
     extend: {
       screens: { 
         sm: { max: "769px" },
+        xs: {max: "550px"},
       },
     },
   },

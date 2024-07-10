@@ -19,11 +19,14 @@ const About = () => {
         </div>
         <div className="content">
           <h2>About <span>NGM Conference </span> </h2>
-          <p>Lorem ipsum dolor, sit amet consectetur 
-            adipisicing elit. Cum ipsa aliquam reprehenderit 
-            possimus? Quas exercitationem quaerat deleniti 
-            itaque commodi maxime, ipsa vel est saepe fugit 
-            at quos explicabo reprehenderit beatae!</p>
+          <p>Nasir Giwa Mentorship (NGM) platform is a mentorship
+            community for both students as well as early and mid-stage
+            career professionals who aspire to be leaders, entrepreneurs
+            and/or business executives</p>
+          <p>The NGM Conference is an event that brings together a
+            community of like-minded individuals who can share their
+            knowledge and experiences, and inspire each other to achieve
+            their full potential.</p>
             <Button title="Reserve Seat"/>
         </div>
       </div>
