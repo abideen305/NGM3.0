@@ -22,8 +22,18 @@ body, html {
 }
     </style>
   </head>
+  
+  <script>
+         const hamburgerMenu = document.getElementById('hamburger-menu');
+const mobileNav = document.getElementById('mobile-nav');
+
+hamburgerMenu.addEventListener('click', () => {
+  mobileNav.classList.toggle('active');
+});
+  </script>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+</body>
 </html>
