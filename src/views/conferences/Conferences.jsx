@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from "../../components/Button"
  import "../../styles/conferences.css"
+ import './conferences.css'
  import bluey from "../../assets/images/blueSquare.png"
  import greeny from "../../assets/images/greenSquare.png"
  import confImg1 from "../../assets/images/conf_img4.png"
@@ -19,7 +20,7 @@ const Conferences = () => {
         <div className="flex flex-col gap-[2rem] relative">
        
           <div className="flex justify-between font-medium text-[#0F1990]">
-            <button className="tablinks  " onClick={()=>updateToggle(1)}>NGM Conference 1.0</button>
+            <button className="tablinks  conff" onClick={()=>updateToggle(1)}>NGM Conference 1.0</button>
             <button className="tablinks" onClick={()=>updateToggle(2)}>NGM Conference 2.0</button>
             <button className="tablinks" onClick={()=>updateToggle(3)}>NGM Conference 3.0</button>
           </div>
@@ -65,7 +66,7 @@ const Conferences = () => {
 
               </div>
               <div className="basis-[50%] sm:basis-[97%] flex flex-col  gap-6 ">
-                <h3>NGM Conference <span>2.0 </span> </h3>
+                <h3 className='conff'>NGM Conference <span>2.0 </span> </h3>
                 <p className='text-[#4B5565] font-medium' >NGM Conference 2.0, themed “Solving Tomorrow’s
                   Problems Today: Empowering The Next Generation Of Solution
                   Seekers”, also attracted hundreds of prospective young leaders

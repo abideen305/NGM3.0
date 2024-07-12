@@ -1,8 +1,11 @@
 import React from 'react'
+import './footer.css'
 import logo from "../assets/images/Logo.png"
 import linkedin from "../assets/images/linkedin.png"
 import ig from "../assets/images/ig.png"
 import x from "../assets/images/X.png"
+import y from "../assets/images/youtube.png"
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -30,12 +33,13 @@ const Footer = () => {
         </div>
         <hr className='border' />
         <div className="flex justify-between text-[#475467] sm:text-[12px] xs:flex-col ">
-          <div className="flex items-center">
+          <div className="flex items-center socials">
             <p>Follow us on our socials:</p>
             <div className="flex gap-1 ">
-              <a href="https://www.instagram.com/ngm.conference"><img src={ig} alt="" /></a> 
-              <a href="https://twitter.com/NGM_Platform"><img src={x} alt="" /></a> 
-              <a href="https://ng.linkedin.com/company/ngm_platform"><img src={linkedin} alt="" /></a> 
+              <a href="https://www.instagram.com/ngm.conference"><img src={ig} alt="instagram" /></a> 
+              <a href="https://twitter.com/NGM_Platform"><img src={x} alt="Twitter" /></a> 
+              <a href="https://ng.linkedin.com/company/ngm_platform"><img src={linkedin} alt="Linkedin" /></a> 
+              <a href="https://www.youtube.com/watch?v=5k8QYHF3iKE&list=PLSSLsONuaxCGMWKnLiYnuUmrFFBm7qMJR"><img src={y} alt="Youtube" /></a> 
               
             </div>
           </div>

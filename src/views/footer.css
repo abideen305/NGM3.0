@@ -1,0 +1,8 @@
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials a {
+  margin-left: 8px; /* Adjust the value as needed for your spacing */
+}
