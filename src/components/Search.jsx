@@ -27,7 +27,7 @@ const Search = () => {
             </div>
             <div className="cta">
               <div className="home">
-                <Link to={Home}>Home</Link>
+                <Link to={Home} className='hhh'>Home</Link>
                 <Link to={Agenda}>Event Brochure</Link>
                 <Link to={Footer}>Contact Us</Link>
                 <Link to={Gallery}>Gallery</Link>

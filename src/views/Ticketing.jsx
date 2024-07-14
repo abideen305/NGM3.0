@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
+import './ticketing.css';
 import location from "../assets/images/location.png"
 import date from "../assets/images/calendar.png"
 import logo from "../assets/images/Logo.png"
@@ -18,14 +19,14 @@ const Ticketing = () => {
               <div className="text-[#0F1990] flex flex-col gap-4">
                 <div className="flex gap-2">
                   <img src={location} alt="" />
-                  <p>Location Here, Lagos</p>
+                  <p className='ticket'>Location Here, Lagos</p>
                 </div>
                 <div className=" flex gap-2">
                   <img src={date} alt="" />
-                  <p> Oct. 5, 2024</p>
+                  <p className='ticket'> Oct. 5, 2024</p>
                 </div>
-                <div className="">
-                  <a href="#" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full ' >
+                <div className="mt-4">
+                  <a href="#" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full  ' >
                     Get Venue Direction
                   </a>
               </div>

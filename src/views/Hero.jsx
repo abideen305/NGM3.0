@@ -1,6 +1,7 @@
 import React, {useState, useRef} from 'react'
 import Search from "../components/Search"
 import Button from "../components/Button"
+import './Hero.css'
 import calendar from "../assets/images/calendar.png"
 import location from "../assets/images/location.png"
 const Hero = () => {
@@ -84,11 +85,11 @@ const [timer, setTimer] = useState({
             </div>
             <hr />
             <div className="flex gap-1 items-center">
-              <img src={location} alt="" />
+              <img src={location} alt="" className='loc'/>
               <h5>Location: Lagos</h5>
             </div>
             <div className="flex gap-1 items-center">
-              <img src={calendar} alt="" />
+              <img src={calendar} alt=""  className='cal'/>
               <h5>Oct 5, 2024</h5>
             </div>
           </div>

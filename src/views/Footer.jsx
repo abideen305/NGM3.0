@@ -22,11 +22,11 @@ const Footer = () => {
             <a href="#">Sponsor Us</a>
           </div>
           <div className="">
-            <h3 className='text-[32px] sm:text-[15px]' >Get <span className='font-bold' >first hand news</span> from us!</h3>
+            <h3 className='text-[30px] sm:text-[15px]' >Get <span className='font-bold' >first hand news</span> from us!</h3>
             <form action="">
               <input type="email" 
-              placeholder='Subscribe to our Newsletter' 
-              className='bg-white p-2 text-[20px] sm:text-[14px]'/>
+              placeholder='Subscribe to our newsletter' 
+              className='bg-white p-2 text-[20px] sm:text-[14px] news'/>
               <button></button>
             </form>
           </div>
