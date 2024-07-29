@@ -19,7 +19,7 @@ const Ticketing = () => {
               <div className="text-[#0F1990] flex flex-col gap-4">
                 <div className="flex gap-2">
                   <img src={location} alt="" />
-                  <p className='ticket'>Location Here, Lagos</p>
+                  <p className='ticket'>Waterfall Hall Event Center, Ikeja, Lagos</p>
                 </div>
                 <div className=" flex gap-2">
                   <img src={date} alt="" />
@@ -55,12 +55,12 @@ const Ticketing = () => {
                 </div>
               </div>
               <div className="flex flex-col items-center">
-                <p className='text-[rgba(0, 0, 0, 0.5)] '>Admit one</p>
-                <h2 className='font-bolder text-[40px] sm:text-[24px] ' >&#8358;3,500</h2>
+                <p className='text-[rgba(0, 0, 0, 0.5)] '>Early Bird</p>
+                <h2 className='font-bolder text-[40px] sm:text-[24px] ' >&#8358;5,000</h2>
                 <div className=" flex justify-center p-6">
-                <Button 
+              <a href="https://tix.africa/discover/ngmconf3" target="_blank" rel="noopener noreferrer">  <Button 
                   title="Buy Ticket" size={15} pad={20}
-                />
+                /></a>
                 </div>
               </div>
               

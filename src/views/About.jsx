@@ -27,7 +27,7 @@ const About = () => {
             community of like-minded individuals who can share their
             knowledge and experiences, and inspire each other to achieve
             their full potential.</p>
-            <Button title="Reserve Seat"/>
+            <a href="https://bit.ly/ngmconferenceticket" target="_blank" rel="noopener noreferrer"><Button title="Reserve Seat"/></a>
         </div>
       </div>
       <img src={vector} alt="" className='vector' />

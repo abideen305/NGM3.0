@@ -33,7 +33,7 @@ const Search = () => {
                 <Link to={Gallery}>Gallery</Link>
                 <a href="#" className='xs:hidden'>Become a sponsor</a>
                 <a href="https://ngmconference.substack.com">Join NGM community</a>
-                <a href="https://ngmconference.substack.com"><Button title="Buy Ticket" size={13} pad="5px 10px" /></a>
+                <a href="https://tix.africa/discover/ngmconf3"><Button title="Buy Ticket" size={13} pad="5px 10px" /></a>
               </div>
 
               <div className="hamburger-menu" id="hamburger-menu" ref={hamburgerMenuRef} onClick={toggleMenu}>

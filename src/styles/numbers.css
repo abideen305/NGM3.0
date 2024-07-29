@@ -24,7 +24,7 @@ h4{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
-@media  screen and (max-width:769px) {
+/* @media  screen and (max-width:769px) {
     .numContainer{
         height: 20vh;
         gap: 8%;
@@ -41,4 +41,4 @@ h4{
     .numbers>div>p{
         font-size: 14px;
     }
-}
+} */
