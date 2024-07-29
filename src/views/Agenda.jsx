@@ -1,16 +1,21 @@
 import React from 'react'
+import './Agenda.css'
 import "../styles/agenda.css"
+
 import vector from "../assets/images/VectorB.png"
 
 const Agenda = () => {
   return (
     <>
       <div className="agendaContainer">
-        <div className="vectorB">
+        <div className="vectorB faded">
           <img src={vector} alt="" />
         </div>
         <h2 className='title'>Event <span>Agenda</span></h2>
-        <div className="agenda">
+        
+        <div className='faded-section-container'>
+        <div className="agenda faded">
+        <span class="overlay-text">Watch out!</span>
           <div className="relative">
             <div className="vertical"></div>
             <div className="dot">
@@ -22,8 +27,8 @@ const Agenda = () => {
             <div className="node"></div>
           </div>
           </div>   
-          
           <div className="activity">
+            
             <div className="segment">
               <h4 className='timing'>9:00a.m - 10:00a.m</h4>
               <div className="">
@@ -84,8 +89,12 @@ const Agenda = () => {
                 animi illum </p>
               </div>
             </div>
+           
           </div>
         </div>
+
+        </div>
+        
       </div>
     </>
   )
