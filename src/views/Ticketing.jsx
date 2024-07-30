@@ -25,7 +25,7 @@ const Ticketing = () => {
                   <p className='ticket'> Oct. 5, 2024</p>
                 </div>
                 <div className="mt-4">
-                  <a href="https://www.google.com/maps/dir/6.551669,3.3346863/Waterfall+Hall+Event+Center,+Ikeja,+Lagos+on+google+map/@6.5793038,3.3016832,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x103b9318b0832561:0xe76998dee8b6bb2d!2m2!1d3.3642396!2d6.6066916?entry=ttu" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full  ' >
+                  <a href="https://www.google.com/maps/dir/6.551669,3.3346863/Waterfall+Hall+Event+Center,+Ikeja,+Lagos+on+google+map/@6.5793038,3.3016832,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x103b9318b0832561:0xe76998dee8b6bb2d!2m2!1d3.3642396!2d6.6066916?entry=ttu" target='_blank'  className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full  ' >
                     Get Venue Direction
                   </a>
               </div>
