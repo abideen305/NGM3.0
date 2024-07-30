@@ -55,7 +55,7 @@ const Ticketing = () => {
               </div>
               <div className="flex flex-col items-center">
                 <p className='text-[rgba(0, 0, 0, 0.5)] '>Early Bird</p>
-                <h2 className='font-bolder text-[40px] sm:text-[24px] ' >&#8358;5,000</h2>
+                <h2 className='font-bolder text-[40px] sm:text-[24px] ' >&#8358;3,500</h2>
                 <div className=" flex justify-center p-6">
               <a href="https://tix.africa/discover/ngmconf3" target="_blank" rel="noopener noreferrer">  <Button 
                   title="Buy Ticket" size={15} pad={20}
