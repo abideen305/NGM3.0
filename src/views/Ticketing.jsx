@@ -14,19 +14,18 @@ const Ticketing = () => {
           <div className="flex justify-around items-center sm:flex-col sm:gap-10">
             <div className="max-w-[500px] flex flex-col gap-10 sm:gap-4 sm:items-center">
               <h4 className='max-w-[370px] text-[48px] sm:text-[28px] sm:max-w-[230px] font-semibold' >Get your ticket, do not miss out!</h4>
-              <p className='text-[rgba(0, 0, 0, 0.5)] '>Lorem ipsum dolor sit amet consectetur. Dui sed sed mattis id elit. 
-                Morbi pharetra sagittis non massa iaculis neque cras aliquet. At vulputate vomsan velit.</p>
+              <p className='text-[rgba(0, 0, 0, 0.5)] '>This conference will bring together a community of like-minded individuals who can share their knowledge and experiences, and inspire each other to achieve their full potential.</p>
               <div className="text-[#0F1990] flex flex-col gap-4">
                 <div className="flex gap-2">
                   <img src={location} alt="" />
-                  <p className='ticket'>Waterfall Hall Event Center, Ikeja, Lagos</p>
+                  <p className='ticket'>Waterfall Event Center, Ikeja, Lagos</p>
                 </div>
                 <div className=" flex gap-2">
                   <img src={date} alt="" />
                   <p className='ticket'> Oct. 5, 2024</p>
                 </div>
                 <div className="mt-4">
-                  <a href="#" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full  ' >
+                  <a href="https://www.google.com/maps/dir/6.551669,3.3346863/Waterfall+Hall+Event+Center,+Ikeja,+Lagos+on+google+map/@6.5793038,3.3016832,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x103b9318b0832561:0xe76998dee8b6bb2d!2m2!1d3.3642396!2d6.6066916?entry=ttu" className='px-6 py-3 text-[#0DA04C] border-[#0DA04C] border-[1.5px] rounded-full  ' >
                     Get Venue Direction
                   </a>
               </div>

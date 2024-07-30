@@ -1,24 +1,20 @@
 @media screen and (max-width:769px) {
-    .dot,.vectorB {
+    .dot, .vectorB {
         display: none;
     }
-
-    
-    
 }
 
-.faded{
-    opacity: 0.09;
+.faded {
+    opacity: 0.4;
     position: relative;
 }
 
-  
-  .faded-section-container {
+.faded-section-container {
     position: relative;
-  }
+}
 
-  .overlay-text {
-    opacity: 1; /* add this */
+.faded .overlay-text {
+    opacity: 1 !important; /* Ensure this text is not faded */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,8 +23,4 @@
     font-weight: bold;
     color: #000;
     z-index: 1;
-  }
-  
-  
-  
-  
+}

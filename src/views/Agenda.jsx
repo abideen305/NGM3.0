@@ -15,7 +15,7 @@ const Agenda = () => {
         
         <div className='faded-section-container'>
         <div className="agenda faded">
-        <span class="overlay-text">Watch out!</span>
+        <span class="overlay-text">Coming Soon...</span>
           <div className="relative">
             <div className="vertical"></div>
             <div className="dot">

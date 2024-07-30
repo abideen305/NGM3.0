@@ -21,6 +21,7 @@ import sp18 from "../../assets/pastSpeakers/sp18.png"
 import sp19 from "../../assets/pastSpeakers/sp19.png"
 
 import Card from './Card'
+import './speakers.css'
 
 const Speakers = () => {
   return (
@@ -36,19 +37,20 @@ const Speakers = () => {
             <Card spImg={sp4} name='Razak Ahmed' title='CEO' organisation='Cowrywise' />
             <Card spImg={sp5} name='Dr. Akintoye Akindele' title='Chairman' organisation='platform Capital Investment Partners'  />
             <Card spImg={sp6} name='Modupe Kadiri' title='CFO ' organisation='MTN Nigeria' />
-            <Card spImg={sp7} name='Toyin Kekere-Ekun' title='CEO' organisation='Lotus Financial Services' />
-            <Card spImg={sp8} name='Suraj Oyewole' title='CEO' organisation='Jarus Homes & Investment Ltd'/>
+            <Card spImg={sp7} name='Toyin Kekere-Ekun' title='CEO' organisation='Lotus Financial Services' className='.extra-speaker'/>
+            <Card spImg={sp8} name='Suraj Oyewole' title='CEO' organisation='Jarus Homes & Investment Ltd'className='.extra-speaker'/>
             <Card spImg={sp9} name='Chikezie Nwosu' title='CEO' organisation='Waltersmith Petroman Oil Ltd.'/>
-            <Card spImg={sp10} name='Kafilat Aroye' title='CEO/MD' organisation='Lotus Bank'/>
+            <Card spImg={sp10} name='Kafilat Aroye' title='CEO/MD' organisation='Lotus Bank' className='.extra-speaker' />
             <Card spImg={sp11} name='Bimpe Afolabi' title='Partner, internal Audit, Governance, Risk Compliance Services' organisation='KPMG Nigeria' />
             <Card spImg={sp12} name='Azeezah Muse-Sadiq' title='Partner' organisation='Banwo & Ighodalo' />
             <Card spImg={sp13} name='Eric Idiahi' title='Co-Founder/partner' organisation='Verod Capital' />
             <Card spImg={sp14} name='Olaynka Subair' title='Country Manager' organisation='Pfizer'  />
-            <Card spImg={sp15} name='Shakiru Lawal' title='Country Human Resources Manager' organisation='Nestle' />
-            <Card spImg={sp16} name='Titi Adams' title='Assistant General Manager' organisation='Optimus Bank' />
-            <Card spImg={sp17} name='Fuad Lawal' title='Project Lead' organisation='Archivi.ng' />
-            <Card spImg={sp18} name='Humuanni Mogaji' title='Director Training & welfare' organisation='LSDPC' />
-            <Card spImg={sp19} name='Moshood Olajide' title='Managing Director' organisation='Ardova Plc' />
+            <Card spImg={sp15} name='Shakiru Lawal' title='Country Human Resources Manager' organisation='Nestle'className='.extra-speaker' />
+            <Card spImg={sp16} name='Titi Adams' title='Assistant General Manager' organisation='Optimus Bank' className='.extra-speaker' />
+            <Card spImg={sp17} name='Fuad Lawal' title='Project Lead' organisation='Archivi.ng' className='.extra-speaker'/>
+            <Card spImg={sp18} name='Humuanni Mogaji' title='Director Training & welfare' organisation='LSDPC' className='.extra-speaker'/>
+            <Card spImg={sp19} name='Moshood Olajide' title='Managing Director' organisation='Ardova Plc' className='.extra-speaker'/>
+            <Card spImg={sp4} name='Razak Ahmed' title='CEO' organisation='Cowrywise' className='.extra-speaker'/>
           </div>
         </div>
     </>

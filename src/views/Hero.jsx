@@ -60,7 +60,7 @@ const [timer, setTimer] = useState({
           </div>
         </div>
         <div className="">
-          <Button title="Buy Ticket" />
+          <a href="https://tix.africa/discover/ngmconf3" target="_blank" rel="noopener noreferrer"> <Button title="Buy Ticket" /></a>
         </div>
         <div className="countDown">
           <div className="">
@@ -86,7 +86,7 @@ const [timer, setTimer] = useState({
             <hr />
             <div className="flex gap-1 items-center">
               <img src={location} alt="" className='loc'/>
-              <h5>Location: Lagos</h5>
+              <h5>Waterfall Event Center, Ikeja, Lagos</h5>
             </div>
             <div className="flex gap-1 items-center">
               <img src={calendar} alt=""  className='cal'/>

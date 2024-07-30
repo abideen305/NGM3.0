@@ -45,7 +45,7 @@
    grid-row-start: 2;
 }
 
-/* @media screen and (max-width:769px) {
+@media screen and (max-width:769px) {
     .aboutContainer{
         height: auto;
     }
@@ -76,4 +76,4 @@
     .vector{
         width: 50px;
     }
-} */
+} 
