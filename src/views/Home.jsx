@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from "./Hero";
+import Hero from "./Hero"
 import About from "./About"
 import Agenda from "./Agenda"
 import Conferences from "./conferences/Conferences"
@@ -19,13 +19,17 @@ const Home = () => {
       <Numbers/>
       <Conferences/>
       <Highlights/>
+      <div id='agenda'>
       <Agenda />
+      </div>
       <New />
       <Speakers/> 
       <Ticketing/>
       <Sponsor/>
       <Faq/>
+      <div id='footer'>
       <Footer/>
+      </div>
     </>
   )
 }

@@ -44,8 +44,8 @@ const Search = () => {
 
               <div className={`mobile-nav ${isMenuOpen ? 'active' : ''}`} id="mobile-nav" ref={mobileNavRef}>
                 <Link to={Home}>Home</Link>
-                <Link to={Agenda}>Event Brochure</Link>
-                <Link to={Footer}>Contact Us</Link>
+                <a href="#agenda">Event Brochure</a>
+                <a href="#footer">Contact Us</a>
                 <Link to={Gallery}>Gallery</Link>
                 <a href="#" className='xs:hidden'>Become a sponsor</a>
                 <a href="https://ngmconference.substack.com">Join NGM community</a>
