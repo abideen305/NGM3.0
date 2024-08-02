@@ -12,30 +12,37 @@ import ps6 from "../assets/pastSponsors/ps6.png"
 import ps7 from "../assets/pastSponsors/ps7.png"
 import ps8 from "../assets/pastSponsors/ps8.png"
 
-
-
-
 const Sponsor = () => {
   return (
     <>
       <div className='sponsorContainer'>
         <h2>PAST SPONSORS</h2>
         <div className="sponsors">
-          <img src={cowry} alt="" />
-          <img src={lotus} alt="" />
-          <img src={leadway} alt="" />
-          <img src={ps1} alt="" />
-          <img src={ps2} alt="" />
-          <img src={ps3} alt="" />
-          <img src={ps4} alt="" />
-          <img src={ps5} alt="" />
-          <img src={ps6} alt="" />
-          <img src={ps7} alt="" />
-          <img src={ps8} alt="" />
+          <img src={cowry} alt="Cowrywise" />
+          <img src={lotus} alt="Lotus" />
+          <img src={leadway} alt="Leadway" />
+          <img src={ps1} alt="Sponsor 1" />
+          <img src={ps2} alt="Sponsor 2" />
+          <img src={ps3} alt="Sponsor 3" />
+          <img src={ps4} alt="Sponsor 4" />
+          <img src={ps5} alt="Sponsor 5" />
+          <img src={ps6} alt="Sponsor 6" />
+          <img src={ps7} alt="Sponsor 7" />
+          <img src={ps8} alt="Sponsor 8" />
+          {/* Duplicate images for seamless animation */}
+          <img src={cowry} alt="Cowrywise" />
+          <img src={lotus} alt="Lotus" />
+          <img src={leadway} alt="Leadway" />
+          <img src={ps1} alt="Sponsor 1" />
+          <img src={ps2} alt="Sponsor 2" />
+          <img src={ps3} alt="Sponsor 3" />
+          <img src={ps4} alt="Sponsor 4" />
+          <img src={ps5} alt="Sponsor 5" />
+          <img src={ps6} alt="Sponsor 6" />
+          <img src={ps7} alt="Sponsor 7" />
+          <img src={ps8} alt="Sponsor 8" />
         </div>
-       
       </div>
-
     </>
   )
 }
