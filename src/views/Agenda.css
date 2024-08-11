@@ -3,7 +3,7 @@
         display: none;
     }
 }
-
+/* 
 .faded {
     opacity: 0.4;
     position: relative;
@@ -14,7 +14,7 @@
 }
 
 .faded .overlay-text {
-    opacity: 1 !important; /* Ensure this text is not faded */
+    opacity: 1 !important; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,4 +23,4 @@
     font-weight: bold;
     color: #000;
     z-index: 1;
-}
+} */

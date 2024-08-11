@@ -3,7 +3,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
@@ -11,6 +11,7 @@
     background-color: #F6F8FF;
     height: 30vh;
     overflow: hidden;
+    position: relative; /* Added to contain absolute positioning */
     white-space: nowrap;
 }
 
@@ -23,14 +24,18 @@
 }
 
 .sponsors {
-    display: inline-flex;
+    display: flex; /* Changed from inline-flex to flex */
     gap: 3rem;
-    animation: 15s slides infinite linear;
+    animation: slides 15s linear infinite; /* Adjusted timing and changed to flex */
     max-height: 70vh;
+    width: 200%; /* Adjusted width to ensure proper transition */
 }
 
 .sponsors img {
-    max-height: 100%; /* Ensures images fit within the container height */
+    max-height: 100%; 
+    object-fit: contain; /* Maintains aspect ratio */
+    width: auto; /* Adjust width to auto to prevent stretching */
+    flex-shrink: 0; /* Prevent shrinking */
 }
 
 @media screen and (max-width: 769px) {
