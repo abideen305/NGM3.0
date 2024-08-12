@@ -59,9 +59,6 @@ const [timer, setTimer] = useState({
             </div>
           </div>
         </div>
-        <div className="">
-          <a href="https://tix.africa/discover/ngmconf3" target="_blank" rel="noopener noreferrer"> <Button title="Buy Ticket" /></a>
-        </div>
         <div className="countDown">
           <div className="">
             <h5>COUNTDOWN TO NGM CONFERENCE 3.0 🚀 </h5>
@@ -94,6 +91,10 @@ const [timer, setTimer] = useState({
             </div>
           </div>
         </div>
+        <div className="">
+          <a href="https://tix.africa/discover/ngmconf3" target="_blank" rel="noopener noreferrer"> <Button title="Buy Ticket" /></a>
+        </div>
+        
         
       </div>
     </>

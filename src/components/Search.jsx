@@ -27,13 +27,13 @@ const Search = () => {
             </div>
             <div className="cta">
               <div className="home">
-              <a href="https://conference.ngmplatform.com/">Home</a>
+                <a href="https://conference.ngmplatform.com/">Home</a>
                 <a href="https://drive.google.com/file/d/19CF4k51gLTf6kJIJJdxvzmM659-fmlZn/view?usp=drivesdk">Event Brochure</a>
                 <a href="#footer">Contact Us</a>
                 <a href="./Gallery">Gallery</a>
                 <a href="https://drive.google.com/file/d/1nfnW-WZJb9GuI0fUnTpMwH-ZEaYtyh14/view?usp=drivesdk">Become a sponsor</a>
                 <a href="https://ngmconference.substack.com">Join NGM community</a>
-                <a href="hhttps://tix.africa/discover/ngmconf3"><Button title="Buy Ticket" size={13} pad="5px 10px" /></a>
+                <a href="https://tix.africa/discover/ngmconf3"><Button title="Buy Ticket" size={13} pad="5px 10px" /></a>
                 {/* <Link to={Home} className='hhh'>Home</Link>
                 <Link to={Agenda}>Event Brochure</Link>
                 <Link to={Footer}>Contact Us</Link>
@@ -60,7 +60,7 @@ const Search = () => {
                 <a href="./Gallery">Gallery</a>
                 <a href="https://drive.google.com/file/d/1nfnW-WZJb9GuI0fUnTpMwH-ZEaYtyh14/view?usp=drivesdk">Become a sponsor</a>
                 <a href="https://ngmconference.substack.com">Join NGM community</a>
-                <a href="hhttps://tix.africa/discover/ngmconf3"><Button title="Buy Ticket" size={16} pad="10px 20px" /></a>
+                <a href="https://tix.africa/discover/ngmconf3"><Button title="Buy Ticket" size={16} pad="10px 20px" /></a>
               </div>
             </div>
           </div>
