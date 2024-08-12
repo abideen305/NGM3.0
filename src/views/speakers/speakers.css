@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .speakers .extra-speaker {
+      display: none;
+  }
+}

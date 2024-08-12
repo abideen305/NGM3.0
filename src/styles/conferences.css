@@ -1,0 +1,13 @@
+.conferenceContainer{
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.conference>h2{
+    font-size: 36px;
+}
+h2>span{
+    font-weight: 600;
+}

@@ -1,0 +1,41 @@
+
+.catch {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #0F1990;
+    font-weight: 500;
+    border: 1px solid #d1d5db; 
+    padding: 8px 16px;
+    border-radius: 9999px; 
+    text-decoration: none; 
+  }
+    
+  .catch img {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .catch span {
+    display: inline-block;
+  }
+  
+  
+.catch:hover {
+    background-color: #0DA04C;
+}
+
+
+.tablinks {
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tablinks.conff {
+    border: 2px solid #0F1990;
+    border-radius: 5px;
+  }
+  
