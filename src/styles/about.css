@@ -39,7 +39,7 @@
     grid-gap: 20px;
 }
 .item3{
-    grid-row-start: span 10;
+    grid-row-start: span 5;
 }
 .item2{
    grid-row-start: 2;
@@ -47,7 +47,7 @@
 
 @media screen and (max-width:769px) {
     .aboutContainer{
-        height: auto;
+        height: max-content;
     }
     .about{
         flex-direction: column-reverse;
@@ -69,6 +69,7 @@
     .gallery{
         padding: 10px 20px;
         justify-content: center;
+        height:max-content;
     }
     .item2{
        grid-row-start: 1;

@@ -46,7 +46,7 @@ const Conferences = () => {
           <hr />
           <div className="xs:snap-mandatory xs:snap-x">
             <div id="1" className={`xs:snap-start ${toggle === 1 ? 'block' : 'hidden'}`}>
-              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute left-0 top-[3rem] xs:hidden"></div>
+              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute left-0 top-[4.5rem] sm:hidden"></div>
               <div className="flex gap-[10%] items-center">
                 <div className="grid gap-2 grid-flow-row grid-cols-2 sm:hidden">
                   <div className="row-start-1 justify-self-end">
@@ -82,7 +82,7 @@ const Conferences = () => {
             </div>
 
             <div id="2" className={`xs:snap-start ${toggle === 2 ? 'block' : 'hidden'}`}>
-              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute left-[52%] top-[3rem] xs:hidden"></div>
+              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute left-[52%] top-[4.5rem] sm:hidden"></div>
               <div className="flex gap-[10%] items-center">
                 <div className="grid grid-flow-row grid-rows-5 gap-2 sm:hidden">
                   <div className="row-start-1 row-end-3">
@@ -118,7 +118,7 @@ const Conferences = () => {
             </div>
 
             <div id="3" className={`xs:snap-start ${toggle === 3 ? 'block' : 'hidden'}`}>
-              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute right-0 top-[2.8rem] xs:hidden"></div>
+              <div className="w-[1rem] h-[1rem] bg-[#0F1990] rounded-full absolute right-0 top-[4.5rem] sm:hidden"></div>
               <div className="flex gap-[10%] items-center">
                 <div className="grid grid-flow-row grid-rows-5 gap-2 sm:hidden">
                   <div className="row-start-1 row-end-3">
