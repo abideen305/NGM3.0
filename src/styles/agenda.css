@@ -18,11 +18,9 @@
 .agenda{
     display: flex;
     justify-content: center;    
-    position: relative;
     margin: 3rem 0;
 }
 .node{
-
     border-radius: 50%;
     width: 1rem;
     height: 1rem;
@@ -35,17 +33,15 @@
     left: 18vw;
 }
 .timing{
-    flex-basis: 35%;
     font-weight: 500;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    width: auto;
 }
 .activity{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    width: 70%;
-    
+    gap: 1rem;   
 }
 .dot{
     position: absolute;
@@ -61,7 +57,7 @@
     font-size: 24px;
     color: #000;
 }
-.activity p{
+.activity p{   
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
 }
